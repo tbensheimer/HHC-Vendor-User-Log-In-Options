@@ -44,3 +44,175 @@
     .layout {
     width: 90%;
     }
+
+ i {
+    color: rgb(202, 200, 200);
+    }
+    
+    .title {
+    color:rgb(90, 89, 89);
+    }
+    
+    .desc {
+        color:rgb(126, 125, 125);
+        font-weight: 500;
+        }
+
+.hidden {
+display: none !important;
+}
+
+.expand {
+width: 10rem;
+padding: 3px;
+}
+
+.expand2 {
+width: 4rem;
+}
+
+.table-container {
+display: flex;
+flex-direction: column;
+}
+.save {
+font-size: 10px;
+}
+
+.editable {
+    border: solid black 1px !important;
+    background-color: rgb(255, 253, 253) !important;
+    align-self: center !important;
+    }
+        
+.inputted-contacts:hover, .company-rows:hover, .types-row:hover {
+    background-color: rgb(255, 255, 255);
+    }
+
+table {
+background-color:rgb(251, 244, 238);
+border-radius: 10px;
+}
+
+table th {
+    background-color:rgb(250, 226, 206) !important;
+}
+
+.table-container {
+padding: 20px;
+}
+
+.shrink {
+width:4rem;
+font-size: 14px;
+}
+
+.add-btn-td {
+padding-left: 5px;
+}
+
+.company-row {
+width: 22rem;
+padding: 5px;
+}
+
+.type-cat-row {
+width: 15rem;
+}
+
+.white {
+color: white !important;
+}
+
+.input-rows {
+    vertical-align: middle;
+}
+
+.border th {
+border: 1px solid white;
+}
+
+.edit {
+font-size: 12px;
+}
+
+.inputted-contacts:hover {
+    background-color: rgb(251, 244, 238);
+}
+
+.content-div {
+    background-color:rgb(255, 255, 255);
+    transition: transform 5s;
+    position:relative;
+    bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    overflow-y: scroll;
+    height: 15rem;
+}
+
+.content-div li {
+width: 70%;
+}
+
+.content {
+display: none;
+overflow: hidden;
+background-color: azure;
+max-height: 0;
+transform: translateY(-710px);
+}
+
+.rotate {
+    transform: rotateZ(180deg);
+}
+
+.active {
+    background-color:rgb(250, 226, 206) !important;
+    border: none;
+}
+
+.types-td  .collapsible {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.types-td  span {
+justify-self: flex-start;
+}
+
+.table-container-tc {
+width: 30%;
+min-width: 20rem !important;
+max-width: 28rem !important;
+}
+
+.tc-table {
+width: 100%;
+}
+
+.tc-table th {
+text-align: center;
+}
+
+
+button.collapsible {
+position: relative;
+}
+
+button.collapsible span {
+position: absolute;
+top: 20%;
+right: 7%;
+color:rgb(90, 89, 89);
+}
+
+button.collapsible span i {
+color:rgb(90, 89, 89);
+}
+
